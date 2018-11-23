@@ -1,0 +1,45 @@
+.item{
+    width: 25%;
+    float: left;
+    background-color: beige;
+    margin: 16px;
+    border-radius: 6px;
+    padding: 16px;
+}
+.mainContent{
+    margin: 30px;
+    background-color: aqua;
+}
+.form{
+    padding: 25px;
+    font-size: 16px;
+    align-self: center;
+    margin: 10px;
+    color: blue;
+}
+input {
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
+    color: blue;
+}
+button{
+    padding: 15px;
+    font-size: 16px;
+    color: blue;
+    margin: 10px;
+    border-radius: 10px;
+}
+.deleteButton{
+    background-color: red;
+    border-block-end-color: aqua;
+}
+.updateButton{
+    background-color: aqua;
+}
+#status{
+   color: blue; 
+}
+img{
+    padding: 10px;
+}
