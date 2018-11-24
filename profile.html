@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title></title>
+        <script>
+        function toggleDiv(id) {
+    var div = document.getElementById(id);
+    div.style.display = div.style.display == "none" ? "block" : "none";
+}
+        </script>
+
+        <style>
+        #links{width: 25%}
+        #tabs {width:75%;float: left}
+        </style>
+    </head>
+    <body>
+        <div id="links">
+            <button onclick="toggleDiv()">Profile</button></br>
+            <button onclick="toggleDiv()">My Red-Flags/ Intervensions</button>
+           
+        </div>
+        <div id="tabs">
+        <div id="red-flags">
+<p>Hey there mangoes</p>
+        </div>
+
+        <div id="my-red-flags">
+
+        </div>
+    </div>
+    </body>
+</html>
